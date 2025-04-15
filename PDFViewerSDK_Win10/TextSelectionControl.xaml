@@ -1,0 +1,50 @@
+﻿<UserControl
+    x:Class="PDFViewerSDK_Win10.TextSelectionControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PDFReader"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="400"
+    d:DesignWidth="400">
+
+    <Grid>
+
+        <Popup x:Name="TextSelectPopup" IsLightDismissEnabled="true" Loaded="TextSelectPopup_Loaded">
+            <StackPanel Width="400" Height="400" x:Name="PopupContainer" Orientation="Horizontal">
+                <StackPanel.Background>
+                    <SolidColorBrush Color="#FFCCCCCC" Opacity="0.9"/>
+                </StackPanel.Background>
+                <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock HorizontalAlignment="Left" Margin="40,0,0,0" TextWrapping="Wrap" Text="Process selected text" VerticalAlignment="Top" FontSize="18"/>
+                    <RadioButton x:Name="mClipboardRadio" HorizontalAlignment="Left" Margin="48,40,0,0" VerticalAlignment="Top" Width="318" GroupName="mOptionRadio" Checked="radioChecked">
+                        <TextBlock Text="Copy text to clipboard"/>
+                    </RadioButton>
+                    <RadioButton x:Name="mHighlightRadio" HorizontalAlignment="Left" Margin="48,100,0,0" VerticalAlignment="Top" Width="318" GroupName="mOptionRadio" Checked="radioChecked">
+                        <TextBlock Text="Highlight text"/>
+                    </RadioButton>
+                    <RadioButton x:Name="mUnderlineRadio" HorizontalAlignment="Left" Margin="48,160,0,0" VerticalAlignment="Top" Width="318" GroupName="mOptionRadio" Checked="radioChecked">
+                        <TextBlock Text="Underline"/>
+                    </RadioButton>
+                    <RadioButton x:Name="mStrikeoutRadio" HorizontalAlignment="Left" Margin="48,220,0,0" VerticalAlignment="Top" Width="318" GroupName="mOptionRadio" Checked="radioChecked">
+                        <TextBlock Text="StrikeOut"/>
+                    </RadioButton>
+                    <RadioButton x:Name="mSquigglyRadio" HorizontalAlignment="Left" Margin="48,280,0,0" VerticalAlignment="Top" Width="318" GroupName="mOptionRadio" Checked="radioChecked">
+                        <TextBlock Text="Squiggly"/>
+                    </RadioButton>
+
+                    <Button x:Name="btnOK" HorizontalAlignment="Left" Click="onButtonClick" Margin="90,325,0,0" Width="65">
+                        <TextBlock Text="OK"/>
+                    </Button>
+                    <Button x:Name="btnCancel" HorizontalAlignment="Left" Click="onButtonClick" Margin="245,325,0,0" Width="65">
+                        <TextBlock Text="Cancel"/>
+                    </Button>
+                    
+                </Grid>
+            </StackPanel>
+        </Popup>
+
+    </Grid>
+    
+</UserControl>

@@ -1,0 +1,35 @@
+﻿<UserControl
+    x:Class="PDFViewerSDK_Win10.OptionPanelControls.AnnotControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PDFViewerSDK_Win10.OptionPanelControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="511.946">
+
+    <Grid Background="#FFCCCCCC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,-200,0">
+            <!--Button x:Name="backBtn" Style="{StaticResource SkipBackAppBarButtonStyle}" VerticalAlignment="Center" Tapped="backBtnTapped"/-->
+            <Button x:Name="lineAnnotBtn" Tag="0" Style="{StaticResource AppBarButtonStyle}" Tapped="onItemTapped">
+                <Image Source="/Assets/images/annot_line.png"/>
+            </Button>
+            <Button x:Name="rectAnnotBtn" Style="{StaticResource AppBarButtonStyle}" Tapped="onItemTapped">
+                <Image Source="/Assets/images/annot_rect.png"/>
+            </Button>
+            <Button x:Name="textEditAnnotBtn" Style="{StaticResource AppBarButtonStyle}" Tapped="onItemTapped">
+                <Image Source="/Assets/images/annot_rect_text.png"/>
+            </Button>
+            <Button x:Name="ellipseAnnotBtn" Style="{StaticResource AppBarButtonStyle}" Tapped="onItemTapped">
+                <Image Source="/Assets/images/annot_ellipse.png"/>
+            </Button>
+            <Button x:Name="textAnnotBtn" Style="{StaticResource AppBarButtonStyle}" Tapped="onItemTapped">
+                <Image Source="/Assets/images/annot_text.png"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

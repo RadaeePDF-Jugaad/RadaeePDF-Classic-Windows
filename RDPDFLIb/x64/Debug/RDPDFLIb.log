@@ -1,0 +1,848 @@
+﻿  pch.cpp
+  dllmain.cpp
+  PDFCore.cpp
+  PDFViewer.cpp
+  RDPDFLIb.cpp
+  RDVThread.cpp
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(176,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(176,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(180,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(187,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(180,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(187,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(176,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(180,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(187,16): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(520,22): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(520,22): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(536,21): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(536,21): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(520,22): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(536,21): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(622,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(622,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(645,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(645,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(714,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(714,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(622,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(645,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(714,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(894,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(892,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(894,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(892,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(843,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(843,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(894,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(892,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1074,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1074,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1083,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1083,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1089,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1089,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1104,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(843,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1104,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1111,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1111,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1074,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1083,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1089,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1104,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1111,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(14,37): warning C4453: “Windows::UI::Core::CoreDispatcher”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(15,26): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(16,26): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(17,26): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(18,26): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(19,26): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(20,26): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(14,37): warning C4453: “Windows::UI::Core::CoreDispatcher”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(15,26): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.cpp(39,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(16,26): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(17,26): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(18,26): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(19,26): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVCallback.h(20,26): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,71): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,50): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,71): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,60): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,50): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVBlk.h(104,41): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(135,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(136,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(144,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(147,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(158,89): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(158,70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(135,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(136,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(144,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(147,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(158,89): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(158,70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(201,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(202,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(203,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(204,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(222,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(223,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(224,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(225,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(232,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(233,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(234,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(235,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(330,34): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(331,33): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(332,35): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(333,36): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(334,43): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(335,45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,108): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,46): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,32): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(201,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(202,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(203,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(204,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(222,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(223,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(224,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(225,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(232,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(254,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(233,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(255,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(256,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(234,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(257,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(263,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(235,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(264,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(265,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(266,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(293,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(294,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(295,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(296,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(302,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(303,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(304,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(305,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(330,34): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(331,33): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(332,35): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(333,36): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(334,43): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(335,45): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,108): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,46): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVPage.h(388,32): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(254,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(255,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(256,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(257,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(263,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(264,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(265,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(266,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(293,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(294,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(295,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(296,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(302,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(303,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(304,52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVFinder.h(305,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(116,28): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(138,25): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(139,25): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(140,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(142,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(202,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(203,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(208,70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(208,64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(220,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(221,51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(233,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(234,51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(273,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(274,23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(278,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(279,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(280,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(281,41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(282,59): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(283,65): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(284,57): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(285,67): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(286,51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(288,51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(458,36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(461,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(543,36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(546,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(624,36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(627,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(717,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(718,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(723,70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(723,64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(836,36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(839,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(871,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(872,24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(877,70): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(877,64): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1356,34): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1357,34): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1417,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1418,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1432,33): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1437,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1442,48): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1443,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVLayout.h(1449,37): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(139,70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(140,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(141,72): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(142,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(148,62): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(149,63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(150,64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(151,63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(293,70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(294,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(295,72): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(296,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(302,62): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(303,63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(304,64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVSel.h(305,63): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(25,9): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(26,9): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(729,12): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFObj::DictGetItem”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFObj ^RDPDFLib::pdf::PDFObj::DictGetItem(Platform::String ^)”作为默认重载
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.cpp(251,22): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFDoc::NewImage”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFDocImage ^RDPDFLib::pdf::PDFDoc::NewImage(Windows::Graphics::Imaging::SoftwareBitmap ^,unsigned int)”作为默认重载
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.cpp(240,22): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.cpp(217,22): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1438,9): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFPageContent::DrawImage”的重载次数超过输入参数的数目。选取“void RDPDFLib::pdf::PDFPageContent::DrawImage(RDPDFLib::pdf::PDFPageForm ^)”作为默认重载
+  (编译源文件“/PDFCore.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(729,12): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFObj::DictGetItem”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFObj ^RDPDFLib::pdf::PDFObj::DictGetItem(Platform::String ^)”作为默认重载
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(895,17): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFDoc::NewImage”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFDocImage ^RDPDFLib::pdf::PDFDoc::NewImage(Windows::Graphics::Imaging::SoftwareBitmap ^,unsigned int)”作为默认重载
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1438,9): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFPageContent::DrawImage”的重载次数超过输入参数的数目。选取“void RDPDFLib::pdf::PDFPageContent::DrawImage(RDPDFLib::pdf::PDFPageForm ^)”作为默认重载
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVThread.cpp(72,1): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVThread.cpp(72,1): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDVThread.cpp(72,1): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/RDVThread.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(152,1): warning C4305: “+=”: 从“double”到“float”截断
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(201,1): warning C4305: “+=”: 从“double”到“float”截断
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(540,9): warning C4453: “Windows::UI::Xaml::Controls::Canvas”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(688,32): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(689,30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(690,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(691,36): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(884,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(885,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(886,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(887,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(899,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(900,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(901,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(902,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(949,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(950,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(965,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(966,40): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(991,21): warning C4570: “RDPDFLib::reader::PDFOPItem”: 没有显式声明为抽象的，但具有抽象函数
+  (编译源文件“/PDFViewer.cpp”)
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(991,21):
+  “void RDPDFLib::reader::PDFOPItem::undo(RDPDFLib::pdf::PDFDoc ^)”: 是抽象的
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(994,17):
+  参见“RDPDFLib::reader::PDFOPItem::undo”的声明
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(991,21):
+  “void RDPDFLib::reader::PDFOPItem::redo(RDPDFLib::pdf::PDFDoc ^)”: 是抽象的
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(995,17):
+  参见“RDPDFLib::reader::PDFOPItem::redo”的声明
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(991,21):
+  “int RDPDFLib::reader::PDFOPItem::get_pgno(int)”: 是抽象的
+  D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(996,16):
+  参见“RDPDFLib::reader::PDFOPItem::get_pgno”的声明
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(729,12): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFObj::DictGetItem”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFObj ^RDPDFLib::pdf::PDFObj::DictGetItem(Platform::String ^)”作为默认重载
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(895,17): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFDoc::NewImage”的重载次数超过输入参数的数目。选取“RDPDFLib::pdf::PDFDocImage ^RDPDFLib::pdf::PDFDoc::NewImage(Windows::Graphics::Imaging::SoftwareBitmap ^,unsigned int)”作为默认重载
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFCore.h(1438,9): warning C4454: 未指定 [DefaultOverload] 时，“RDPDFLib::pdf::PDFPageContent::DrawImage”的重载次数超过输入参数的数目。选取“void RDPDFLib::pdf::PDFPageContent::DrawImage(RDPDFLib::pdf::PDFPageForm ^)”作为默认重载
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(67,1): warning C4453: “Windows::UI::Core::CoreDispatcher”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(67,1): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(67,1): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(67,1): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(67,8): warning C4453: “Windows::UI::Xaml::Shapes::Path”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(114,8): warning C4453: “Windows::UI::Xaml::Shapes::Path”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(163,8): warning C4453: “Windows::UI::Xaml::Shapes::Path”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(211,9): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(20,19): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(31,19): warning C4453: “Windows::UI::Xaml::Controls::Image”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(38,19): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.cpp(61,19): warning C4453: “Windows::UI::Xaml::Controls::TextBlock”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(928,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(933,17): warning C4453: “Windows::UI::Xaml::Media::Imaging::WriteableBitmap”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\PDFViewer.h(938,28): warning C4453: “Windows::UI::Core::CoreDispatcher”: 不应在不是“[WebHostHidden]”的公共类型的发布接口中使用“[WebHostHidden]”类型
+  (编译源文件“/PDFViewer.cpp”)
+  
+    正在创建库 D:\workspace\Radaee\RadaeePDF_UWP\x64\Debug\RDPDFLIb\RDPDFLIb.lib 和对象 D:\workspace\Radaee\RadaeePDF_UWP\x64\Debug\RDPDFLIb\RDPDFLIb.exp
+  RDPDFLIb.vcxproj -> D:\workspace\Radaee\RadaeePDF_UWP\x64\Debug\RDPDFLIb\RDPDFLIb.dll

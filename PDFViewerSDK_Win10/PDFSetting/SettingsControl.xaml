@@ -1,0 +1,90 @@
+﻿<UserControl
+    x:Class="RDPDFSetting.ui.SettingsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RDPDFSetting.ui"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="500">
+
+    <Grid>
+        <Popup x:Name="RadioGroupPopup" IsLightDismissEnabled="true" Loaded="RadioGroupPopup_Loaded">
+            <StackPanel Width="500" Height="300" x:Name="PopupContainer" Orientation="Horizontal">
+                <StackPanel.Background>
+                    <SolidColorBrush Color="#FFCCCCCC" Opacity="0.9"/>
+                </StackPanel.Background>
+                <Grid Margin="20" VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="0" Margin="10">
+                        <Button x:Name="mRenderQualityBtn" Tapped="mRenderQualityBtn_Tapped" >
+                            <TextBlock Text="Render Quality"  Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <TextBlock x:Name="mRenderQualityLabel" Foreground="#FF666666" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0" Margin="10">
+                        <Button x:Name="mViewModeBtn" Tapped="mViewModeBtn_Tapped">
+                            <TextBlock Text="View Mode"   Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <TextBlock x:Name="mViewModeLabel" Foreground="#FF666666" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="1" Margin="10">
+                        <Button x:Name="mInkWidthBtn" Tapped="mInkWidthBtn_Tapped">
+                            <TextBlock Text="Ink Line Width"   Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <TextBlock x:Name="mInkWidthLabel" Foreground="#FF666666" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1" Margin="10">
+                        <Button x:Name="mInkColorBtn" Tapped="mInkColorBtn_Tapped">
+                            <TextBlock Text="Ink Line Color"  Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <Rectangle Width="30" Height="30" x:Name="mInkColorLabel" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="2" Margin="10">
+                        <Button x:Name="mRectWidthBtn" Tapped="mRectWidthBtn_Tapped">
+                            <TextBlock Text="Rect Line Width"  Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <TextBlock x:Name="mRectWidthLabel" Foreground="#FF666666" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" Margin="10">
+                        <Button x:Name="mRectColorBtn" Tapped="mRectColorBtn_Tapped">
+                            <TextBlock Text="Rect Line Color"  Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <Rectangle x:Name="mRectColorLabel" Width="30" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left"  Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.Row="3" Margin="10">
+                        <Button x:Name="mEllipseWidthBtn" Tapped="mEllipseWidthBtn_Tapped">
+                            <TextBlock Text="Ellipse Line Width"  Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <TextBlock x:Name="mEllipseWidthLabel" Foreground="#FF666666" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="3" Margin="10">
+                        <Button x:Name="mEllipseColorBtn" Tapped="mEllipseColorBtn_Tapped">
+                            <TextBlock Text="Ellipse Line Color" Foreground="#FFDDDDDD"/>
+                        </Button>
+                        <Rectangle x:Name="mEllipseColorLabel" Width="30" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left"  Margin="10"/>
+                    </StackPanel>
+
+                </Grid>
+            </StackPanel>
+        </Popup>
+    </Grid>
+</UserControl>
