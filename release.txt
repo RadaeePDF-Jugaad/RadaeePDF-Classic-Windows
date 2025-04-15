@@ -1,0 +1,94 @@
+Windows 10 - VS 2019 - Version 2.3.3
+
+Based on the same code of Android 3.65.8, it introduces many performances enhancements and optimizations.
+
+2.3.3
+- FIX core-lib code clean up and improvement
+- FIX set a default check/uncheck icon when the form field doesn't contain the glyph.
+- FIX jpx decode
+- FIX rendering issue in special PDF
+- FIX rendering issue of gray masks
+
+2.3.2
+- FIX jpx decoder on ARM64 architecture
+- FIX memory optimization with gray images and masks
+
+
+2.3.1
+- FIX thumbnail view may be broken when set in vertical mode
+
+2.3
+- ENHANCEMENT zlib codec improvement
+- FIX value of edit box now retain proper value
+- FIX jpx issue in some special case
+- FIX CCITT code clean-up
+- FIX improved CMYK to RGB conversion
+- FIX code optimization in font decoding and rendering
+- FIX improved filesystem interaction and read-only status management
+
+2.2
+
+- FIX addressed a coordinates issue while detecting AcroForm
+- FIX get AcroForm values may get wrong contents
+
+2.1.1
+
+- FIX minor maintenance
+
+2.1
+
+- NEW improved algorithm to fill vector shapes. The result is to enhance the quality of texts, expecially CJK
+- NEW improved algorithm to render gradient filling and dashed lines.
+- FIX reason: inline image without compress pixels may be judged wrong image tail
+- FIX SetEditFont() was internally referencing the font resource in a wrong way
+- FIX Forced Outilne/Bookmarks to have parent entry
+- FIX Wrong size on stream object length when pointed to a referenced object. Merged PDF file gone corrupted
+- FIX improved PDF/A generation
+
+2.0
+
+- Stable version based on RC1
+
+2.0RC1
+- FIX in some condition the PDF file was locked even when the SDK was releasing it
+- FIX issue that PDFDoc.Close() method cannot completely release file resource when that file is an encrypted document.
+- FIX corelib fully update to solve and optimize minor issues
+
+
+2.0beta8
+- NEW publish updated EULA
+- Core library is fully aligned to Android version 3.55beta5
+- NEW method PageContent.DrawText() can set bounding width and max count of lines, will return drawn chars and drawn lines.
+- FIX issue for new interface PageContent.drawText()
+- FIX issue for docx rendering.
+- FIX weird behaviour when embedding bold and italic fonts.
+
+2.0beta7
+- FIX minor issues.
+2.0beta6
+- FIX a crash issue resulting from modifying editbox content in some cases.
+
+2.0beta5
+- FIX a rendering issue with a specific file.
+- FIX annotation position after changing view mode.
+
+2.0beta4
+- FIX crash issue when loading bad linearized header data.
+- FIX a rendering issue with a certain file.
+
+2.0beta3
+- FIX set/get popup text\subject/label for Editbox (free text) annotation issue.
+
+2.0beta2
+- FIX rendering issue for a specific PDF.
+
+2.0beta1
+- NEW layout PDF_LAYOUT_MODE
+          layout_hsingle = 5 horizontal single mode
+          layout_hdual = 6 horizontal dual mode
+- NEW method PDFSign.Name to get name of signer
+- NEW feature list all pages, and can rotate/delete pages.
+- NEW feature add editbox annotation.
+- NEW feature add polygon/polyline annotation.
+- NEW feature add stamp annotation
+- ENHANCED PDFAnnot.SignField add a parameter to set name of signer.

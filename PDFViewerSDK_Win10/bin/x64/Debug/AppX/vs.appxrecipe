@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALEX-MOBILE</Machine>
+    <WindowsUser>goldk</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>703f2ba7-90ec-480b-a3e2-3a7b9d06df29</PackageIdentityName>
+    <PackageIdentityPublisher>CN=E2756C05-CE49-479A-8FEE-80DE5D85E1BA</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C60FD1C514526614038834533737362A55BFCB9F1C2510A4F37C5C3DB3A0203B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2625.RadaeePDFReader_1.1.0.0_x64__pn99vhkmv7v4a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2625.RadaeePDFReader_pn99vhkmv7v4a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2625.RadaeePDFReader</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=E2756C05-CE49-479A-8FEE-80DE5D85E1BA</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-05-09T13:07:17.506</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\RDPDFReader.exe">
+      <PackagePath>entrypoint\RDPDFReader.exe</PackagePath>
+      <Modified>2024-05-09T13:07:16.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\microsoft.applicationinsights\2.18.0\lib\netstandard2.0\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2021-07-26T23:36:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\microsoft.applicationinsights.persistencechannel\1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-10-28T17:02:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\microsoft.applicationinsights.windowsapps\1.1.1\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-12-10T16:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2021-02-05T01:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\system.diagnostics.diagnosticsource\5.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2020-10-19T18:38:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goldk\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2020-10-19T18:46:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\x64\Debug\RDPDFLIb\RDPDFLIb.dll">
+      <PackagePath>RDPDFLIb.dll</PackagePath>
+      <Modified>2024-05-09T13:07:12.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2023-09-29T18:17:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\x64\Debug\RDPDFLIb\RDPDFLIb.winmd">
+      <PackagePath>RDPDFLIb.winmd</PackagePath>
+      <Modified>2024-05-09T13:07:11.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2023-09-19T14:59:27.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\dat\cmaps.dat">
+      <PackagePath>Assets\dat\cmaps.dat</PackagePath>
+      <Modified>2023-09-19T14:59:27.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\dat\cmyk_rgb.dat">
+      <PackagePath>Assets\dat\cmyk_rgb.dat</PackagePath>
+      <Modified>2023-09-19T14:59:27.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\dat\umaps.dat">
+      <PackagePath>Assets\dat\umaps.dat</PackagePath>
+      <Modified>2023-09-19T14:59:27.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\amiri_regular.ttf">
+      <PackagePath>Assets\font\amiri_regular.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\argbsn00lp.ttf">
+      <PackagePath>Assets\font\argbsn00lp.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\arimo.ttf">
+      <PackagePath>Assets\font\arimo.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\arimob.ttf">
+      <PackagePath>Assets\font\arimob.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\arimobi.ttf">
+      <PackagePath>Assets\font\arimobi.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\arimoi.ttf">
+      <PackagePath>Assets\font\arimoi.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\cousine.ttf">
+      <PackagePath>Assets\font\cousine.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\cousineb.ttf">
+      <PackagePath>Assets\font\cousineb.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\cousinebi.ttf">
+      <PackagePath>Assets\font\cousinebi.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\cousinei.ttf">
+      <PackagePath>Assets\font\cousinei.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\symbol.ttf">
+      <PackagePath>Assets\font\symbol.ttf</PackagePath>
+      <Modified>2023-09-19T14:59:27.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\texgy.otf">
+      <PackagePath>Assets\font\texgy.otf</PackagePath>
+      <Modified>2023-09-19T14:59:27.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\texgyb.otf">
+      <PackagePath>Assets\font\texgyb.otf</PackagePath>
+      <Modified>2023-09-19T14:59:27.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\texgybi.otf">
+      <PackagePath>Assets\font\texgybi.otf</PackagePath>
+      <Modified>2023-09-19T14:59:27.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\texgyi.otf">
+      <PackagePath>Assets\font\texgyi.otf</PackagePath>
+      <Modified>2023-09-19T14:59:27.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_delete.png">
+      <PackagePath>Assets\imgs\annot_delete.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_done.png">
+      <PackagePath>Assets\imgs\annot_done.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_ellipse.png">
+      <PackagePath>Assets\imgs\annot_ellipse.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_line.png">
+      <PackagePath>Assets\imgs\annot_line.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_open.png">
+      <PackagePath>Assets\imgs\annot_open.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_rect.png">
+      <PackagePath>Assets\imgs\annot_rect.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_rect_text.png">
+      <PackagePath>Assets\imgs\annot_rect_text.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_remove.png">
+      <PackagePath>Assets\imgs\annot_remove.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\annot_text.png">
+      <PackagePath>Assets\imgs\annot_text.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_menu.png">
+      <PackagePath>Assets\imgs\icon_menu.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_select.png">
+      <PackagePath>Assets\imgs\icon_select.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_setting.png">
+      <PackagePath>Assets\imgs\icon_setting.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_thumbnail.png">
+      <PackagePath>Assets\imgs\icon_thumbnail.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\left_arrow.png">
+      <PackagePath>Assets\imgs\left_arrow.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\pdf_icon.png">
+      <PackagePath>Assets\imgs\pdf_icon.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\richmedia_pause.png">
+      <PackagePath>Assets\imgs\richmedia_pause.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\richmedia_play.png">
+      <PackagePath>Assets\imgs\richmedia_play.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\richmedia_stop.png">
+      <PackagePath>Assets\imgs\richmedia_stop.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\right_arrow.png">
+      <PackagePath>Assets\imgs\right_arrow.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\view_about.png">
+      <PackagePath>Assets\imgs\view_about.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\view_search.png">
+      <PackagePath>Assets\imgs\view_search.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_edit_box.png">
+      <PackagePath>Assets\imgs\icon_edit_box.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_horz_dual_page.png">
+      <PackagePath>Assets\imgs\icon_horz_dual_page.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_manage_pages.png">
+      <PackagePath>Assets\imgs\icon_manage_pages.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_meta.png">
+      <PackagePath>Assets\imgs\icon_meta.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_polygon.png">
+      <PackagePath>Assets\imgs\icon_polygon.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_polyline.png">
+      <PackagePath>Assets\imgs\icon_polyline.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_redo.png">
+      <PackagePath>Assets\imgs\icon_redo.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_rotation.png">
+      <PackagePath>Assets\imgs\icon_rotation.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_single_page.png">
+      <PackagePath>Assets\imgs\icon_single_page.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_stamp.png">
+      <PackagePath>Assets\imgs\icon_stamp.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_undo.png">
+      <PackagePath>Assets\imgs\icon_undo.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_view_dual_page.png">
+      <PackagePath>Assets\imgs\icon_view_dual_page.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_view_horz.png">
+      <PackagePath>Assets\imgs\icon_view_horz.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_view_horz_cover.png">
+      <PackagePath>Assets\imgs\icon_view_horz_cover.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_view_mode.png">
+      <PackagePath>Assets\imgs\icon_view_mode.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\icon_view_vert.png">
+      <PackagePath>Assets\imgs\icon_view_vert.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\imgs\pdf_custom_stamp.png">
+      <PackagePath>Assets\imgs\pdf_custom_stamp.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-16.png">
+      <PackagePath>Assets\SmallLogo.scale-16.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-256.png">
+      <PackagePath>Assets\SmallLogo.scale-256.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-32.png">
+      <PackagePath>Assets\SmallLogo.scale-32.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-48.png">
+      <PackagePath>Assets\SmallLogo.scale-48.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashLogo.scale-100.png">
+      <PackagePath>Assets\SplashLogo.scale-100.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashLogo.scale-140.png">
+      <PackagePath>Assets\SplashLogo.scale-140.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashLogo.scale-180.png">
+      <PackagePath>Assets\SplashLogo.scale-180.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2023-09-19T14:59:27.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-09-19T14:59:27.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\rdf013">
+      <PackagePath>Assets\font\rdf013</PackagePath>
+      <Modified>2023-09-19T14:59:27.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\AMIRI_LICENSE.txt">
+      <PackagePath>Assets\font\AMIRI_LICENSE.txt</PackagePath>
+      <Modified>2023-09-19T14:59:27.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\ARIMO_LICENSE.txt">
+      <PackagePath>Assets\font\ARIMO_LICENSE.txt</PackagePath>
+      <Modified>2023-09-19T14:59:27.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\COUSINE_LICENSE.txt">
+      <PackagePath>Assets\font\COUSINE_LICENSE.txt</PackagePath>
+      <Modified>2023-09-19T14:59:27.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\FONT-LICENSE.txt">
+      <PackagePath>Assets\font\FONT-LICENSE.txt</PackagePath>
+      <Modified>2023-09-19T14:59:27.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Assets\font\GUST e-foundry License.txt">
+      <PackagePath>Assets\font\GUST e-foundry License.txt</PackagePath>
+      <Modified>2023-09-19T14:59:27.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2023-09-19T14:59:28.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\RDPDFReader.xr.xml">
+      <PackagePath>RDPDFReader.xr.xml</PackagePath>
+      <Modified>2023-09-19T15:25:40.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFMainPage\PDFMainPage.xbf">
+      <PackagePath>PDFMainPage\PDFMainPage.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\PDFPagesView.xbf">
+      <PackagePath>PDFReaderPage\PDFPagesView.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\RichMediaControl.xbf">
+      <PackagePath>PDFReaderPage\RichMediaControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFMainPage\AboutPage.xbf">
+      <PackagePath>PDFMainPage\AboutPage.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFMainPage\DlgError.xbf">
+      <PackagePath>PDFMainPage\DlgError.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFMainPage\DlgPassword.xbf">
+      <PackagePath>PDFMainPage\DlgPassword.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgMarkup.xbf">
+      <PackagePath>PDFReaderPage\DlgMarkup.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgMeta.xbf">
+      <PackagePath>PDFReaderPage\DlgMeta.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgPoptext.xbf">
+      <PackagePath>PDFReaderPage\DlgPoptext.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgPropComm.xbf">
+      <PackagePath>PDFReaderPage\DlgPropComm.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgPropIcon.xbf">
+      <PackagePath>PDFReaderPage\DlgPropIcon.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgPropLine.xbf">
+      <PackagePath>PDFReaderPage\DlgPropLine.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\DlgPropMarkup.xbf">
+      <PackagePath>PDFReaderPage\DlgPropMarkup.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\PDFReaderPage.xbf">
+      <PackagePath>PDFReaderPage\PDFReaderPage.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\PopOutline.xbf">
+      <PackagePath>PDFReaderPage\PopOutline.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\PopSearch.xbf">
+      <PackagePath>PDFReaderPage\PopSearch.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\SaveDocControl.xbf">
+      <PackagePath>PDFReaderPage\SaveDocControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\UIColorView.xbf">
+      <PackagePath>PDFReaderPage\UIColorView.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFReaderPage\UIPageItem.xbf">
+      <PackagePath>PDFReaderPage\UIPageItem.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFSetting\ColorPickerControl.xbf">
+      <PackagePath>PDFSetting\ColorPickerControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFSetting\InformationControl.xbf">
+      <PackagePath>PDFSetting\InformationControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFSetting\LineWidthControl.xbf">
+      <PackagePath>PDFSetting\LineWidthControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\PDFSetting\SettingsControl.xbf">
+      <PackagePath>PDFSetting\SettingsControl.xbf</PackagePath>
+      <Modified>2024-05-09T13:07:16.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\X64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2023-09-29T12:47:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2023-09-29T21:03:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-05-09T13:07:16.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\bin\x64\Debug\Core\RDPDFReader.exe">
+      <PackagePath>RDPDFReader.exe</PackagePath>
+      <Modified>2024-05-09T13:07:17.502</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\goldk\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\goldk\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

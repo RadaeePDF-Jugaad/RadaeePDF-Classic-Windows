@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="PDFCore.cpp" />
+    <ClCompile Include="RDPDFLIb.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="RDVThread.cpp" />
+    <ClCompile Include="PDFViewer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PDFCore.h" />
+    <ClInclude Include="PDFWinRT.h" />
+    <ClInclude Include="RDPDFLIb.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="RDVPage.h" />
+    <ClInclude Include="RDVLayout.h" />
+    <ClInclude Include="RDVBlk.h" />
+    <ClInclude Include="RDVThread.h" />
+    <ClInclude Include="RDVFinder.h" />
+    <ClInclude Include="RDVCallback.h" />
+    <ClInclude Include="PDFViewer.h" />
+    <ClInclude Include="RDVSel.h" />
+  </ItemGroup>
+</Project>
