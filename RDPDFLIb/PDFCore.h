@@ -1265,7 +1265,7 @@ namespace RDPDFLib
 			/// <summary>
 			/// Encrypt the document with passwords and save it as a new file
 			/// </summary>
-			/// <param name="dst">Path to save£¬ same as path parameter of SaveAs.</param>
+			/// <param name="dst">Path to saveï¿½ï¿½ same as path parameter of SaveAs.</param>
 			/// <param name="User_pswd">User password, can be null.</param>
 			/// <param name="Owner_pswd">Owner password, can be null.</param>
 			/// <param name="perm">permission to set, same as GetPermission() method.
@@ -2811,7 +2811,7 @@ namespace RDPDFLib
 			/// The added annotation can be obtained by Page.GetAnnot(Page.GetAnnotCount() - 1), if this method return true.
 			/// </summary>
 			/// <param name="rect">Link area rect [left, top, right, bottom] in PDF coordinate.</param>
-			/// <param name="uri">Url address, example: "http://www.radaee.com/en"</param>
+			/// <param name="uri">Url address, example: "https://www.radaeepdf.com"</param>
 			/// <returns>True if successed, otherwise false</returns>
 			Boolean AddAnnotURI( PDFRect rect, String ^uri )
 			{
@@ -3165,7 +3165,7 @@ namespace RDPDFLib
 				int get(){return Page_getAnnotFieldType(m_page->m_page, m_annot);}
 			}
 			/// <summary>
-			/// Get name of the annotation without NO. a fields group with same name "field#0","field#1"£¬got to "field".
+			/// Get name of the annotation without NO. a fields group with same name "field#0","field#1"ï¿½ï¿½got to "field".
 			/// This method require premium license
 			/// return null if it is not field, or name of the annotation, example: "EditBox1[0]".
 			/// </summary>
@@ -3227,7 +3227,7 @@ namespace RDPDFLib
 			/// <param name="idx">Action index:
 			/// 0:'K' performed when the user types a keystroke
 			/// 1: 'F' to be performed before the field is formatted to display its current value.
-			/// 2: 'V' to be performed when the field¡¯s value is changed
+			/// 2: 'V' to be performed when the fieldï¿½ï¿½s value is changed
 			/// 3: 'C' to be performed to recalculate the value of this field when that of another field changes.<br / ></param>
 			/// <returns>Javsscript of field's action</returns>
 			String ^GetFieldJS(int idx)
@@ -3786,7 +3786,7 @@ namespace RDPDFLib
 			/// <returns>Type of item:
 			/// -1: unknown or error.
 			/// 0: Video.
-			/// 1£ºSound.
+			/// 1ï¿½ï¿½Sound.
 			/// 2: Flash file object.
 			/// 3: 3D file object.</returns>
 			int GetRichMediaItemType(int idx)

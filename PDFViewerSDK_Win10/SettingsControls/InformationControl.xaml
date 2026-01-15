@@ -24,7 +24,7 @@
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,220,0,0" Grid.Column="0" Grid.Row="0" Text="PDFViewer SDK:" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
                 <HyperlinkButton Margin="200,230,0,0" Grid.Column="0" Grid.Row="0" Content="http://www.androidpdf.mobi" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="http://www.androidpdf.mobi"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,270,0,0" Grid.Column="0" Grid.Row="0" Text="Web site: " VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
-                <HyperlinkButton Margin="120,285,0,0" Grid.Column="0" Grid.Row="0" Content="http://www.radaee.com/en" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="http://www.radaee.com/en"/>
+                <HyperlinkButton Margin="120,285,0,0" Grid.Column="0" Grid.Row="0" Content="https://www.radaeepdf.com" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="https://www.radaeepdf.com"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,330,0,0" Grid.Column="0" Grid.Row="0" Text="Developed by: Radaee Studio." VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,370,0,0" Grid.Column="0" Grid.Row="0" Text="All rights reserved." VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
                 <!--<Button x:Name="btnOK" Grid.Row="2" Margin="0,0,0,20" Click="onButtonClick" VerticalAlignment="Bottom" HorizontalAlignment="Center">
