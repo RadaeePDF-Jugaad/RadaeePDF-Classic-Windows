@@ -20,7 +20,7 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Foreground="#FFDDDDDD" Margin="0,100,0,0" Grid.Column="0" Grid.Row="0" Text="Radaee PDF Reader" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="28" TextWrapping="Wrap"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,160,0,0" Grid.Column="0" Grid.Row="0" Text="Email:" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
-                <HyperlinkButton Margin="80,170,0,0" Grid.Column="0" Grid.Row="0" Content="radaeepdf@gmail.com" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="mailto:radaeepdf@gmail.com"/>
+                <HyperlinkButton Margin="80,170,0,0" Grid.Column="0" Grid.Row="0" Content="support@radaeepdf.com" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="mailto:support@radaeepdf.com"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,220,0,0" Grid.Column="0" Grid.Row="0" Text="PDFViewer SDK:" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
                 <HyperlinkButton Margin="200,230,0,0" Grid.Column="0" Grid.Row="0" Content="https://www.radaeepdf.com" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" NavigateUri="http://www.androidpdf.mobi"/>
                 <TextBlock Foreground="#FFDDDDDD" Margin="20,270,0,0" Grid.Column="0" Grid.Row="0" Text="Web site: " VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="28" TextWrapping="Wrap"/>
@@ -34,4 +34,3 @@
         </Popup>
     </Grid>
 </UserControl>
-

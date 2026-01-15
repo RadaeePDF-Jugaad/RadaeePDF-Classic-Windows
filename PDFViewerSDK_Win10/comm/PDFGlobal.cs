@@ -218,7 +218,7 @@ namespace com.radaee.reader
             //binding to package "2625.RadaeePDFReader", can active version before: 2025-05-09
             //RDPDFLib.pdf.PDFGlobal.GetVersion() can get version string.
             int licenseType = RDPDFLib.pdf.PDFGlobal.Active("52DE4976539BFCE23ABE988B73730A8F88C6CB9CAB13C76C92C6D3D28E717DD0224478233438C10FD5321E85E57E68FE");
-            //int licenseType = RDPDFLib.pdf.PDFGlobal.Active("radaee", "radaeepdf@gmail.com", "YOOW28-VS57CA-9ZOU9E-OQ31K2-5R5V9L-KM0Y1L");
+            //int licenseType = RDPDFLib.pdf.PDFGlobal.Active("radaee", "support@radaeepdf.com", "YOOW28-VS57CA-9ZOU9E-OQ31K2-5R5V9L-KM0Y1L");
             return (licenseType > 0);
         }
     }
