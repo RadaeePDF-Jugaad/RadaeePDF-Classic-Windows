@@ -55,7 +55,7 @@
 
             <!--Style="{StaticResource FooterStyle}"-->
             <TextBlock 
-                Text="© Radaee. All rights reserved." TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Left" FontSize="12"/>
+                Text="© RadaeePDF. All rights reserved." TextWrapping="Wrap" Grid.Row="1" HorizontalAlignment="Left" FontSize="12"/>
             <StackPanel x:ConnectionId='3' x:Name="FooterPanel" Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right">
                 <!--Style="{StaticResource SeparatorStyle}"-->
                 <TextBlock Text="|"
@@ -69,4 +69,3 @@
         </Grid>
     </Grid>
 </Page>
-
