@@ -1,2 +1,0 @@
-D:\workspace\Radaee\RadaeePDF_UWP\PDFViewerSDK_Win10\PDFViewerSDK_Win10.csproj;x64
-D:\workspace\Radaee\RadaeePDF_UWP\RDPDFLIb\RDPDFLIb.vcxproj;x64
