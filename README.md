@@ -19,6 +19,51 @@ RadaeePDF SDK is designed to solve most developers' needs with regards to PDF re
 - **Multiple View Modes** - Single page, continuous scroll, and more
 - **Night Mode** - Built-in dark mode support for better readability
 
+## Requirements
+
+Before running the demo, ensure you have the following installed:
+
+### Visual Studio Requirements
+- **Visual Studio 2022** (or later) with the following workloads:
+  - **.NET desktop development** - For WPF, Windows Forms, and console applications with C#, Visual Basic, and F# with .NET Framework
+  - **Universal Windows Platform development** - With C++ (v143) tools for UWP
+  
+### Windows SDK
+- **Windows 11 SDK (10.0.22621.0)** or later
+
+### Windows Developer Mode
+You must enable Developer Mode on Windows:
+
+1. Open **Settings**
+2. Go to **System** → **For developers**
+3. Enable **Developer Mode**
+   - This allows you to install apps from any source, including loose files
+
+## Quick Start - Run Demo
+
+To quickly test the RadaeePDF SDK demo:
+
+1. **Clone the Repository**
+   - Open Visual Studio
+   - Click on **Clone a repository** (or File → Clone Repository)
+   - Paste the repository URL:
+     ```
+     https://github.com/RadaeePDF-Jugaad/RadaeePDF-Classic-Windows.git
+     ```
+   - Click **Clone** and wait for the project to download
+
+2. **Open the Solution**
+   - Visual Studio should automatically open the `PDFViewerSDK_Win10.sln` solution file
+   - If not, navigate to the cloned folder and double-click `PDFViewerSDK_Win10.sln`
+
+3. **Configure Build Settings**
+   - In the toolbar, set the platform to **x86** (or other platform based on your system)
+   - Set the configuration to **Debug** or **Release**
+
+4. **Build and Run**
+   - Press **F5** or click the **Start** button (▶) to build and run the demo
+   - The UWP application will launch on your local machine
+
 ### Manual Installation
 
 1. Download the RadaeePDF SDK library from Git Repository
