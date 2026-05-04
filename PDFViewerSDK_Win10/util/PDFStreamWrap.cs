@@ -112,7 +112,16 @@ namespace RDPDFLib.util
             m_algorithm = SymmetricKeyAlgorithmProvider.OpenAlgorithm("AES_CBC_PKCS7");
             string type_name = m_stream.GetType().ToString();
             m_fix = (type_name.LastIndexOf("NativeFileStream") > 0);
-            byte[] ivbytes = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
+            //The byte array used as vector for generating IvParameterSpec is updated with random value instead of hard coded value for better security performance.
+            //This update may affect on users who were using the hard coded vector. If any issue was found, please feel free to restore the old solution below. --Alex
+            byte[] ivbytes = new byte[16];
+            Random rnd = new Random();
+            rnd.NextBytes(ivbytes);
+
+            //Old solution
+            //byte[] ivbytes = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
             IBuffer keybuf = CryptographicBuffer.CreateFromByteArray(key);
             m_iv = CryptographicBuffer.CreateFromByteArray(ivbytes);
             m_key = m_algorithm.CreateSymmetricKey(keybuf);
