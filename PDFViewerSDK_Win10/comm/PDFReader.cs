@@ -1234,7 +1234,7 @@ namespace com.radaee.reader
             m_scroller.ViewChanged += vOnViewChanged;
             m_scroller.ZoomMode = ZoomMode.Enabled;
             m_scroller.IsZoomChainingEnabled = false;
-            m_scroller.MinZoomFactor = 0.3f;
+            m_scroller.MinZoomFactor = 0.1f;
             m_scroller.MaxZoomFactor = 10;
             m_scroller.HorizontalScrollBarVisibility = ScrollBarVisibility.Visible;
             m_scroller.VerticalScrollBarVisibility = ScrollBarVisibility.Visible;
