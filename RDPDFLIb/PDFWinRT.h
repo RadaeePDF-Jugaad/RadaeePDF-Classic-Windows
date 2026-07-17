@@ -95,85 +95,86 @@ int Global_active(String ^ serial);
 
 
 //load starnard font from path
-void Global_loadStdFont( int index, const char *path );
+void Global_loadStdFont(int index, const char* path);
 //unload standard font
-void Global_unloadStdFont( int index );
+void Global_unloadStdFont(int index);
 //set cmaps path
-void Global_setCMapsPath( const char *cmaps, const char *umaps );
-bool Global_setCMYKICC(const char *path);
+void Global_setCMapsPath(const char* cmaps, const char* umaps);
+bool Global_setCMYKICC(const char* path);
 //create font list
 void Global_fontfileListStart();
 //add a true type font file to font list
-void Global_fontfileListAdd( const char *font_file );
+void Global_fontfileListAdd(const char* font_file);
 //end font list
 void Global_fontfileListEnd();
-bool Global_fontfileMapping( const char *map_name, const char *name );
+bool Global_fontfileMapping(const char* map_name, const char* name);
 //set default font
-bool Global_setDefaultFont( const char *collection, const char *font_name, bool fixed );
+bool Global_setDefaultFont(const char* collection, const char* font_name, bool fixed);
 //set annotation font for editing mostly for edit-box/combo-box
-bool Global_setAnnotFont( const char *font_name );
+bool Global_setAnnotFont(const char* font_name);
 int Global_getFaceCount();
-const char *Global_getFaceName( int index );
+const char* Global_getFaceName(int index);
 //create a DIB object
-PDF_DIB Global_dibGet( PDF_DIB dib, int width, int height );
+PDF_DIB Global_dibGet(PDF_DIB dib, int width, int height);
 //free DIB object.
-void Global_dibFree( PDF_DIB dib );
-void Global_toDIBPoint( PDF_MATRIX matrix, const PDF_POINT *ppoint, PDF_POINT *dpoint );
-void Global_toPDFPoint( PDF_MATRIX matrix, const PDF_POINT *dpoint, PDF_POINT *ppoint );
-void Global_toDIBRect( PDF_MATRIX matrix, const PDF_RECT *prect, PDF_RECT *drect );
-void Global_toPDFRect( PDF_MATRIX matrix, const PDF_RECT *drect, PDF_RECT *prect );
+void Global_dibFree(PDF_DIB dib);
+void Global_toDIBPoint(PDF_MATRIX matrix, const PDF_POINT* ppoint, PDF_POINT* dpoint);
+void Global_toPDFPoint(PDF_MATRIX matrix, const PDF_POINT* dpoint, PDF_POINT* ppoint);
+void Global_toDIBRect(PDF_MATRIX matrix, const PDF_RECT* prect, PDF_RECT* drect);
+void Global_toPDFRect(PDF_MATRIX matrix, const PDF_RECT* drect, PDF_RECT* prect);
 //get pixels data from DIB object
-void *Global_dibGetData( PDF_DIB dib );
-int Global_dibGetWidth( PDF_DIB dib );
-int Global_dibGetHeight( PDF_DIB dib );
-bool Global_dibSaveJPG(PDF_DIB dib, const char *path, int quality);
-void Global_drawScroll(WriteableBitmap^dst, PDF_DIB dib1, PDF_DIB dib2, int x, int y, int style, unsigned int back_side_clr);
-bool Global_drawAnnotIcon(int annot_type, int icon, WriteableBitmap ^ dib);
+void* Global_dibGetData(PDF_DIB dib);
+int Global_dibGetWidth(PDF_DIB dib);
+int Global_dibGetHeight(PDF_DIB dib);
+bool Global_dibSaveJPG(PDF_DIB dib, const char* path, int quality);
+void Global_drawScroll(WriteableBitmap^ dst, PDF_DIB dib1, PDF_DIB dib2, int x, int y, int style, unsigned int back_side_clr);
+bool Global_drawAnnotIcon(int annot_type, int icon, WriteableBitmap^ dib);
 bool Global_drawDashLine(const float* dash, int dash_cnt, WriteableBitmap^ dib);
 bool Global_drawLineHead(int head, WriteableBitmap^ dib);
-PDF_BMP Global_lockBitmap( WriteableBitmap ^dst );
+PDF_BMP Global_lockBitmap(WriteableBitmap^ dst);
 PDF_BMP Global_lockSoftBitmap(SoftwareBitmap^ dst);
-bool Global_saveBitmapJPG(PDF_BMP data, const char *path, int quality);
+bool Global_saveBitmapJPG(PDF_BMP data, const char* path, int quality);
 void Global_unlockBitmap(PDF_BMP data);
-void Global_scaleDIB( PDF_DIB dst, PDF_DIB dib );
-void Global_drawDIB( PDF_BMP dst, PDF_DIB dib, int x, int y );
-void Global_drawRect( PDF_BMP dst, int color, int x, int y, int w, int h, int mode );
-void Global_eraseColor( PDF_BMP dst, int color );
-void Global_setAnnotTransparency( int color );
+void Global_scaleDIB(PDF_DIB dst, PDF_DIB dib);
+void Global_drawDIB(PDF_BMP dst, PDF_DIB dib, int x, int y);
+void Global_drawRect(PDF_BMP dst, int color, int x, int y, int w, int h, int mode);
+void Global_eraseColor(PDF_BMP dst, int color);
+void Global_setAnnotTransparency(int color);
+typedef unsigned int (*func_trans_clr)(PDF_ANNOT annot);
 
 //create a matrix object
-PDF_MATRIX Matrix_create( float xx, float yx, float xy, float yy, float x0, float y0 );
-PDF_MATRIX Matrix_createScale( float scalex, float scaley, float x0, float y0 );
-void Matrix_invert( PDF_MATRIX matrix );
-void Matrix_transformPath( PDF_MATRIX matrix, PDF_PATH path );
-void Matrix_transformInk( PDF_MATRIX matrix, PDF_INK ink );
-void Matrix_transformRect( PDF_MATRIX matrix, PDF_RECT *rect );
-void Matrix_transformPoint( PDF_MATRIX matrix, PDF_POINT *point );
-void Matrix_destroy( PDF_MATRIX matrix );
+PDF_MATRIX Matrix_create(float xx, float yx, float xy, float yy, float x0, float y0);
+PDF_MATRIX Matrix_createScale(float scalex, float scaley, float x0, float y0);
+void Matrix_invert(PDF_MATRIX matrix);
+void Matrix_transformPath(PDF_MATRIX matrix, PDF_PATH path);
+void Matrix_transformInk(PDF_MATRIX matrix, PDF_INK ink);
+void Matrix_transformRect(PDF_MATRIX matrix, PDF_RECT* rect);
+void Matrix_transformPoint(PDF_MATRIX matrix, PDF_POINT* point);
+void Matrix_destroy(PDF_MATRIX matrix);
 
 //create a Ink object
-PDF_INK Ink_create( float line_w, int color );
-void Ink_destroy( PDF_INK ink );
-void Ink_onDown( PDF_INK ink, float x, float y );
-void Ink_onMove( PDF_INK ink, float x, float y );
-void Ink_onUp( PDF_INK ink, float x, float y );
-int Ink_getNodeCount( PDF_INK ink );
-int Ink_getNode( PDF_INK hand, int index, PDF_POINT *pt );
+PDF_INK Ink_create(float line_w, int color);
+void Ink_destroy(PDF_INK ink);
+void Ink_onDown(PDF_INK ink, float x, float y);
+void Ink_onMove(PDF_INK ink, float x, float y);
+void Ink_onUp(PDF_INK ink, float x, float y);
+int Ink_getNodeCount(PDF_INK ink);
+int Ink_getNode(PDF_INK hand, int index, PDF_POINT* pt);
 
 void Document_setOpenFlag(int flag);
-PDF_DOC Document_openPath( const char *path, const char *password, PDF_ERR *err );
+PDF_DOC Document_openPath(const char* path, const char* password, PDF_ERR* err);
 PDF_DOC Document_openPathW(const wchar_t* path, const char* password, PDF_ERR* err);
-PDF_DOC Document_open( IRandomAccessStream ^stream, const char *password, PDF_ERR *err );
-PDF_DOC Document_openStream( IPDFStream *stream, const char *password, PDF_ERR *err );
-PDF_DOC Document_create( IRandomAccessStream ^stream, PDF_ERR *err );
-PDF_DOC Document_createForStream( IPDFStream *stream, PDF_ERR *err );
-PDF_DOC Document_createForPath( const char *path, PDF_ERR *err );
-bool Document_setCache( PDF_DOC doc, const char *path );
+PDF_DOC Document_open(IRandomAccessStream^ stream, const char* password, PDF_ERR* err);
+PDF_DOC Document_openStream(IPDFStream* stream, const char* password, PDF_ERR* err);
+PDF_DOC Document_create(IRandomAccessStream^ stream, PDF_ERR* err);
+PDF_DOC Document_createForStream(IPDFStream* stream, PDF_ERR* err);
+PDF_DOC Document_createForPath(const char* path, PDF_ERR* err);
+bool Document_setCache(PDF_DOC doc, const char* path);
 String^ Document_getXMP(PDF_DOC doc);
 bool Document_setXMP(PDF_DOC doc, String^ xmp);
-bool Document_runJS( PDF_DOC doc, const char *js, IPDFJSDelegate *del);
-int Document_getPermission( PDF_DOC doc );
-int Document_getPerm( PDF_DOC doc );
+bool Document_runJS(PDF_DOC doc, const char* js, IPDFJSDelegate* del);
+int Document_getPermission(PDF_DOC doc);
+int Document_getPerm(PDF_DOC doc);
 int Document_getEFCount(PDF_DOC doc);
 String^ Document_getEFName(PDF_DOC doc, int index);
 String^ Document_getEFDesc(PDF_DOC doc, int index);
@@ -182,43 +183,43 @@ int Document_getJSCount(PDF_DOC doc);
 String^ Document_getJSName(PDF_DOC doc, int index);
 String^ Document_getJS(PDF_DOC doc, int index);
 bool Document_exportForm(PDF_DOC doc, char* str, int len);
-bool Document_canSave( PDF_DOC doc );
+bool Document_canSave(PDF_DOC doc);
 int Document_getLinearizedStatus(PDF_DOC doc);
 
-String ^Document_getOutlineLabel(PDF_DOC doc, PDF_OUTLINE outlinenode);
-int Document_getOutlineDest( PDF_DOC doc, PDF_OUTLINE outlinenode );
+String^ Document_getOutlineLabel(PDF_DOC doc, PDF_OUTLINE outlinenode);
+int Document_getOutlineDest(PDF_DOC doc, PDF_OUTLINE outlinenode);
 void Document_getOutlineDest2(PDF_DOC doc, PDF_OUTLINE outlinenode, int* vals);
 String^ Document_getOutlineFileLink(PDF_DOC doc, PDF_OUTLINE outlinenode);
 PDF_OUTLINE Document_getOutlineChild(PDF_DOC doc, PDF_OUTLINE outlinenode);
 PDF_OUTLINE Document_getOutlineNext(PDF_DOC doc, PDF_OUTLINE outlinenode);
-bool Document_addOutlineChild(PDF_DOC doc, PDF_OUTLINE outlinenode, const wchar_t *label, int pageno, float top);
-bool Document_addOutlineNext(PDF_DOC doc, PDF_OUTLINE outlinenode, const wchar_t *label, int pageno, float top);
+bool Document_addOutlineChild(PDF_DOC doc, PDF_OUTLINE outlinenode, const wchar_t* label, int pageno, float top);
+bool Document_addOutlineNext(PDF_DOC doc, PDF_OUTLINE outlinenode, const wchar_t* label, int pageno, float top);
 bool Document_removeOutline(PDF_DOC doc, PDF_OUTLINE outlinenode);
 
 String^ Document_getMeta(PDF_DOC doc, const char* tag);
 bool Document_setMeta(PDF_DOC doc, const char* tag, const wchar_t* meta);
 PDF_POINT Document_getPagesMaxSize(PDF_DOC doc);
-float Document_getPageWidth( PDF_DOC doc, int pageno );
-float Document_getPageHeight( PDF_DOC doc, int pageno );
-int Document_getPageCount( PDF_DOC doc );
-bool Document_getPageLabel(PDF_DOC doc, int pageno, wchar_t *wtxt, int wlen);
+float Document_getPageWidth(PDF_DOC doc, int pageno);
+float Document_getPageHeight(PDF_DOC doc, int pageno);
+int Document_getPageCount(PDF_DOC doc);
+String^ Document_getPageLabel(PDF_DOC doc, int pageno);
 bool Document_setPageRotate(PDF_DOC doc, int pageno, int degree);
 bool Document_changePageRect(PDF_DOC doc, int pageno, float dl, float dt, float dr, float db);
-bool Document_save( PDF_DOC doc );
-bool Document_saveAs( PDF_DOC doc, const char *dst );
+bool Document_save(PDF_DOC doc);
+bool Document_saveAs(PDF_DOC doc, const char* dst);
 bool Document_saveAsW(PDF_DOC doc, const wchar_t* dst);
 bool Document_encryptAsW(PDF_DOC doc, const wchar_t* dst, const wchar_t* upswd, const wchar_t* opswd, int perm, int method, const BYTE* id);
-bool Document_isEncrypted( PDF_DOC doc );
+bool Document_isEncrypted(PDF_DOC doc);
 int Document_verifySign(PDF_DOC doc, PDF_SIGN sign);
-void Document_close( PDF_DOC doc );
-PDF_PAGE Document_getPage( PDF_DOC doc, int pageno );
-PDF_DOC_FONT Document_newFontCID( PDF_DOC doc, const char *name, int style );
-float Document_getFontAscent( PDF_DOC doc, PDF_DOC_FONT font );
-float Document_getFontDescent( PDF_DOC doc, PDF_DOC_FONT font );
-PDF_DOC_GSTATE Document_newGState( PDF_DOC doc );
-bool Document_setGStateStrokeAlpha( PDF_DOC doc, PDF_DOC_GSTATE state, int alpha );
-bool Document_setGStateFillAlpha( PDF_DOC doc, PDF_DOC_GSTATE state, int alpha );
-bool Document_setGStateStrokeDash(PDF_DOC doc, PDF_DOC_GSTATE state, const float *dash, int dash_cnt, float phase);
+void Document_close(PDF_DOC doc);
+PDF_PAGE Document_getPage(PDF_DOC doc, int pageno);
+PDF_DOC_FONT Document_newFontCID(PDF_DOC doc, const char* name, int style);
+float Document_getFontAscent(PDF_DOC doc, PDF_DOC_FONT font);
+float Document_getFontDescent(PDF_DOC doc, PDF_DOC_FONT font);
+PDF_DOC_GSTATE Document_newGState(PDF_DOC doc);
+bool Document_setGStateStrokeAlpha(PDF_DOC doc, PDF_DOC_GSTATE state, int alpha);
+bool Document_setGStateFillAlpha(PDF_DOC doc, PDF_DOC_GSTATE state, int alpha);
+bool Document_setGStateStrokeDash(PDF_DOC doc, PDF_DOC_GSTATE state, const float* dash, int dash_cnt, float phase);
 bool Document_setGStateBlendMode(PDF_DOC doc, PDF_DOC_GSTATE state, int bmode);
 
 PDF_DOC_FORM Document_newForm(PDF_DOC doc);
@@ -230,22 +231,22 @@ void Document_setFormContent(PDF_DOC doc, PDF_DOC_FORM form, float x, float y, f
 void Document_setFormTransparency(PDF_DOC doc, PDF_DOC_FORM form, bool isolate, bool knockout);
 void Document_freeForm(PDF_DOC doc, PDF_DOC_FORM form);
 
-PDF_PAGE Document_newPage( PDF_DOC doc, int pageno, float w, float h );
-bool Document_removePage( PDF_DOC doc, int pageno );
-PDF_IMPORTCTX Document_importStart( PDF_DOC doc, PDF_DOC doc_src );
-bool Document_importPage( PDF_DOC doc, PDF_IMPORTCTX ctx, int srcno, int dstno );
-void Document_importEnd( PDF_DOC doc, PDF_IMPORTCTX ctx );
-bool Document_movePage( PDF_DOC doc, int pageno1, int pageno2 );
-PDF_DOC_IMAGE Document_newImage(PDF_DOC doc, WriteableBitmap ^bitmap, bool has_alpha);
+PDF_PAGE Document_newPage(PDF_DOC doc, int pageno, float w, float h);
+bool Document_removePage(PDF_DOC doc, int pageno);
+PDF_IMPORTCTX Document_importStart(PDF_DOC doc, PDF_DOC doc_src);
+bool Document_importPage(PDF_DOC doc, PDF_IMPORTCTX ctx, int srcno, int dstno);
+void Document_importEnd(PDF_DOC doc, PDF_IMPORTCTX ctx);
+bool Document_movePage(PDF_DOC doc, int pageno1, int pageno2);
+PDF_DOC_IMAGE Document_newImage(PDF_DOC doc, WriteableBitmap^ bitmap, bool has_alpha);
 PDF_DOC_IMAGE Document_newImage2(PDF_DOC doc, SoftwareBitmap^ bitmap, bool has_alpha);
 PDF_DOC_IMAGE Document_newImageMatte(PDF_DOC doc, WriteableBitmap^ bitmap, unsigned int matte);
 PDF_DOC_IMAGE Document_newImage2Matte(PDF_DOC doc, SoftwareBitmap^ bitmap, unsigned int matte);
-PDF_DOC_IMAGE Document_newImageJPEG( PDF_DOC doc, const char *path );
-PDF_DOC_IMAGE Document_newImageJPX( PDF_DOC doc, const char *path );
+PDF_DOC_IMAGE Document_newImageJPEG(PDF_DOC doc, const char* path);
+PDF_DOC_IMAGE Document_newImageJPX(PDF_DOC doc, const char* path);
 
 
-String ^Sign_getIssue(PDF_SIGN sign);
-String ^Sign_getSubject(PDF_SIGN sign);
+String^ Sign_getIssue(PDF_SIGN sign);
+String^ Sign_getSubject(PDF_SIGN sign);
 long Sign_getVersion(PDF_SIGN sign);
 String^ Sign_getName(PDF_SIGN sign);
 String^ Sign_getLocation(PDF_SIGN sign);
@@ -253,10 +254,11 @@ String^ Sign_getReason(PDF_SIGN sign);
 String^ Sign_getContact(PDF_SIGN sign);
 String^ Sign_getModDT(PDF_SIGN sign);
 
-int Page_sign(PDF_PAGE page, PDF_DOC_FORM appearence, const PDF_RECT *box, const char *cert_file, const char *pswd, const char *name, const char *reason, const char *location, const char *contact);
-bool Page_getCropBox( PDF_PAGE page, PDF_RECT *box );
-bool Page_getMediaBox( PDF_PAGE page, PDF_RECT *box );
-void Page_close( PDF_PAGE page );
+int Page_sign(PDF_PAGE page, PDF_DOC_FORM appearence, const PDF_RECT* box, const char* cert_file, const char* pswd, const char* name, const char* reason, const char* location, const char* contact);
+bool Page_getCropBox(PDF_PAGE page, PDF_RECT* box);
+bool Page_getMediaBox(PDF_PAGE page, PDF_RECT* box);
+bool Page_getContentBox(PDF_PAGE page, PDF_RECT* box);
+void Page_close(PDF_PAGE page);
 
 float Page_reflowStart(PDF_PAGE page, float width, float ratio, bool reflow_images);
 float Page_reflowStart2(PDF_PAGE page, float width, float ratio, bool reflow_images, const char* font_name);
@@ -268,11 +270,13 @@ float Page_reflowGetCharHeight(PDF_PAGE page, int iparagraph, int ichar);
 int Page_reflowGetCharColor(PDF_PAGE page, int iparagraph, int ichar);
 int Page_reflowGetCharUnicode(PDF_PAGE page, int iparagraph, int ichar);
 PDF_RECT Page_reflowGetCharRect(PDF_PAGE page, int iparagraph, int ichar, int orgx, int orgy);
-String ^Page_reflowGetText(PDF_PAGE page, int iparagraph1, int ichar1, int iparagraph2, int ichar2);
+String^ Page_reflowGetText(PDF_PAGE page, int iparagraph1, int ichar1, int iparagraph2, int ichar2);
 bool Page_reflowToBmp(PDF_PAGE page, PDF_BMP bitmap, float orgx, float orgy);
 
 void Page_renderPrepare( PDF_PAGE page, PDF_DIB dib );
 bool Page_render( PDF_PAGE page, PDF_DIB dib, PDF_MATRIX matrix, bool show_annots, PDF_RENDER_MODE mode );
+typedef long long (*func_annot_callback)(void *user, PDF_ANNOT annot);
+bool Page_render1(PDF_PAGE page, PDF_DIB dib, PDF_MATRIX matrix, func_annot_callback callback, void *user, PDF_RENDER_MODE mode);
 bool Page_renderToBmp( PDF_PAGE page, PDF_BMP bitmap, PDF_MATRIX matrix, bool show_annots, PDF_RENDER_MODE mode );
 bool Page_renderAnnotToBmp(PDF_PAGE page, PDF_ANNOT annot, PDF_BMP bitmap);
 void Page_renderCancel( PDF_PAGE page );
@@ -352,6 +356,7 @@ int Page_signAnnotField(PDF_PAGE page, PDF_ANNOT annot, PDF_DOC_FORM appearence,
 	* 4: signature field<br/>
 	*/
 int Page_getAnnotFieldType( PDF_PAGE page, PDF_ANNOT annot );
+int Page_getAnnotFieldBtnLabelW(PDF_PAGE page, PDF_ANNOT annot, wchar_t* buf, int len);
 int Page_getAnnotFieldNameW( PDF_PAGE page, PDF_ANNOT annot, wchar_t *buf, int len );
 int Page_getAnnotFieldNameWithNOW(PDF_PAGE page, PDF_ANNOT annot, wchar_t *buf, int len);
 int Page_getAnnotFieldFullNameW( PDF_PAGE page, PDF_ANNOT annot, wchar_t *buf, int len );
